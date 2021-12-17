@@ -1,0 +1,341 @@
+{
+  "ret" : true,
+  "result" : [
+    {
+      "code" : "01",
+      "id" : 1,
+      "name" : "Alabama",
+      "shortName" : "AL"
+    },
+    {
+      "code" : "02",
+      "id" : 2,
+      "name" : "Alaska",
+      "shortName" : "AK"
+    },
+    {
+      "code" : "60",
+      "id" : 3,
+      "name" : "American Samoa",
+      "shortName" : "AS"
+    },
+    {
+      "code" : "04",
+      "id" : 4,
+      "name" : "Arizona",
+      "shortName" : "AZ"
+    },
+    {
+      "code" : "05",
+      "id" : 5,
+      "name" : "Arkansas",
+      "shortName" : "AR"
+    },
+    {
+      "code" : "06",
+      "id" : 6,
+      "name" : "California",
+      "shortName" : "CA"
+    },
+    {
+      "code" : "08",
+      "id" : 7,
+      "name" : "Colorado",
+      "shortName" : "CO"
+    },
+    {
+      "code" : "69",
+      "id" : 8,
+      "name" : "Commonwealth of the Northern Mariana Islands",
+      "shortName" : "MP"
+    },
+    {
+      "code" : "09",
+      "id" : 9,
+      "name" : "Connecticut",
+      "shortName" : "CT"
+    },
+    {
+      "code" : "10",
+      "id" : 10,
+      "name" : "Delaware",
+      "shortName" : "DE"
+    },
+    {
+      "code" : "11",
+      "id" : 11,
+      "name" : "District of Columbia",
+      "shortName" : "DC"
+    },
+    {
+      "code" : "12",
+      "id" : 12,
+      "name" : "Florida",
+      "shortName" : "FL"
+    },
+    {
+      "code" : "13",
+      "id" : 13,
+      "name" : "Georgia",
+      "shortName" : "GA"
+    },
+    {
+      "code" : "66",
+      "id" : 14,
+      "name" : "Guam",
+      "shortName" : "GU"
+    },
+    {
+      "code" : "15",
+      "id" : 15,
+      "name" : "Hawaii",
+      "shortName" : "HI"
+    },
+    {
+      "code" : "16",
+      "id" : 16,
+      "name" : "Idaho",
+      "shortName" : "ID"
+    },
+    {
+      "code" : "17",
+      "id" : 17,
+      "name" : "Illinois",
+      "shortName" : "IL"
+    },
+    {
+      "code" : "18",
+      "id" : 18,
+      "name" : "Indiana",
+      "shortName" : "IN"
+    },
+    {
+      "code" : "19",
+      "id" : 19,
+      "name" : "Iowa",
+      "shortName" : "IA"
+    },
+    {
+      "code" : "20",
+      "id" : 20,
+      "name" : "Kansas",
+      "shortName" : "KS"
+    },
+    {
+      "code" : "21",
+      "id" : 21,
+      "name" : "Kentucky",
+      "shortName" : "KY"
+    },
+    {
+      "code" : "22",
+      "id" : 22,
+      "name" : "Louisiana",
+      "shortName" : "LA"
+    },
+    {
+      "code" : "23",
+      "id" : 23,
+      "name" : "Maine",
+      "shortName" : "ME"
+    },
+    {
+      "code" : "24",
+      "id" : 24,
+      "name" : "Maryland",
+      "shortName" : "MD"
+    },
+    {
+      "code" : "25",
+      "id" : 25,
+      "name" : "Massachusetts",
+      "shortName" : "MA"
+    },
+    {
+      "code" : "26",
+      "id" : 26,
+      "name" : "Michigan",
+      "shortName" : "MI"
+    },
+    {
+      "code" : "27",
+      "id" : 27,
+      "name" : "Minnesota",
+      "shortName" : "MN"
+    },
+    {
+      "code" : "28",
+      "id" : 28,
+      "name" : "Mississippi",
+      "shortName" : "MS"
+    },
+    {
+      "code" : "29",
+      "id" : 29,
+      "name" : "Missouri",
+      "shortName" : "MO"
+    },
+    {
+      "code" : "30",
+      "id" : 30,
+      "name" : "Montana",
+      "shortName" : "MT"
+    },
+    {
+      "code" : "31",
+      "id" : 31,
+      "name" : "Nebraska",
+      "shortName" : "NE"
+    },
+    {
+      "code" : "32",
+      "id" : 32,
+      "name" : "Nevada",
+      "shortName" : "NV"
+    },
+    {
+      "code" : "33",
+      "id" : 33,
+      "name" : "New Hampshire",
+      "shortName" : "NH"
+    },
+    {
+      "code" : "34",
+      "id" : 34,
+      "name" : "New Jersey",
+      "shortName" : "NJ"
+    },
+    {
+      "code" : "35",
+      "id" : 35,
+      "name" : "New Mexico",
+      "shortName" : "NM"
+    },
+    {
+      "code" : "36",
+      "id" : 36,
+      "name" : "New York",
+      "shortName" : "NY"
+    },
+    {
+      "code" : "37",
+      "id" : 37,
+      "name" : "North Carolina",
+      "shortName" : "NC"
+    },
+    {
+      "code" : "38",
+      "id" : 38,
+      "name" : "North Dakota",
+      "shortName" : "ND"
+    },
+    {
+      "code" : "39",
+      "id" : 39,
+      "name" : "Ohio",
+      "shortName" : "OH"
+    },
+    {
+      "code" : "40",
+      "id" : 40,
+      "name" : "Oklahoma",
+      "shortName" : "OK"
+    },
+    {
+      "code" : "41",
+      "id" : 41,
+      "name" : "Oregon",
+      "shortName" : "OR"
+    },
+    {
+      "code" : "42",
+      "id" : 42,
+      "name" : "Pennsylvania",
+      "shortName" : "PA"
+    },
+    {
+      "code" : "72",
+      "id" : 43,
+      "name" : "Puerto Rico",
+      "shortName" : "PR"
+    },
+    {
+      "code" : "44",
+      "id" : 44,
+      "name" : "Rhode Island",
+      "shortName" : "RI"
+    },
+    {
+      "code" : "45",
+      "id" : 45,
+      "name" : "South Carolina",
+      "shortName" : "SC"
+    },
+    {
+      "code" : "46",
+      "id" : 46,
+      "name" : "South Dakota",
+      "shortName" : "SD"
+    },
+    {
+      "code" : "47",
+      "id" : 47,
+      "name" : "Tennessee",
+      "shortName" : "TN"
+    },
+    {
+      "code" : "48",
+      "id" : 48,
+      "name" : "Texas",
+      "shortName" : "TX"
+    },
+    {
+      "code" : "78",
+      "id" : 49,
+      "name" : "United States Virgin Islands",
+      "shortName" : "VI"
+    },
+    {
+      "code" : "49",
+      "id" : 50,
+      "name" : "Utah",
+      "shortName" : "UT"
+    },
+    {
+      "code" : "50",
+      "id" : 51,
+      "name" : "Vermont",
+      "shortName" : "VT"
+    },
+    {
+      "code" : "51",
+      "id" : 52,
+      "name" : "Virginia",
+      "shortName" : "VA"
+    },
+    {
+      "code" : "53",
+      "id" : 53,
+      "name" : "Washington",
+      "shortName" : "WA"
+    },
+    {
+      "code" : "54",
+      "id" : 54,
+      "name" : "West Virginia",
+      "shortName" : "WV"
+    },
+    {
+      "code" : "55",
+      "id" : 55,
+      "name" : "Wisconsin",
+      "shortName" : "WI"
+    },
+    {
+      "code" : "56",
+      "id" : 56,
+      "name" : "Wyoming",
+      "shortName" : "WY"
+    }
+  ]
+}

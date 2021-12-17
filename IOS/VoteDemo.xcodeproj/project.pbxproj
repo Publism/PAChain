@@ -1,0 +1,1378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2945910AD3A84A5C3A22724 /* libPods-VoteDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 642D5AB52EA163FBE2EAFCB0 /* libPods-VoteDemo.a */; };
+		E70E24592511F91400536F3D /* RSAEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = E70E24572511F91400536F3D /* RSAEncryptor.m */; };
+		E72112CB252FF947005A74D5 /* InvitationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E72112CA252FF947005A74D5 /* InvitationModel.m */; };
+		E72112D1252FF9EA005A74D5 /* InvitationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E72112D0252FF9EA005A74D5 /* InvitationListViewController.m */; };
+		E72112D425300B38005A74D5 /* InvitationHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E72112D325300B38005A74D5 /* InvitationHomeViewController.m */; };
+		E72F13FC254180800001AFC7 /* YYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F13C3254180800001AFC7 /* YYTextView.m */; };
+		E72F13FD254180800001AFC7 /* YYTextMagnifier.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F13C7254180800001AFC7 /* YYTextMagnifier.m */; };
+		E72F13FE254180800001AFC7 /* YYTextContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F13CA254180800001AFC7 /* YYTextContainerView.m */; };
+		E72F13FF254180800001AFC7 /* YYTextEffectWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F13CB254180800001AFC7 /* YYTextEffectWindow.m */; };
+		E72F1400254180810001AFC7 /* YYTextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F13CD254180800001AFC7 /* YYTextInput.m */; };
+		E72F1401254180810001AFC7 /* YYTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F13CE254180800001AFC7 /* YYTextLayout.m */; };
+		E72F1402254180810001AFC7 /* YYTextLine.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F13D0254180800001AFC7 /* YYTextLine.m */; };
+		E72F1403254180810001AFC7 /* YYTextSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F13D1254180800001AFC7 /* YYTextSelectionView.m */; };
+		E72F1404254180810001AFC7 /* YYTextKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F13D4254180800001AFC7 /* YYTextKeyboardManager.m */; };
+		E72F1405254180810001AFC7 /* YYTextDebugOption.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F13D6254180800001AFC7 /* YYTextDebugOption.m */; };
+		E72F1406254180810001AFC7 /* YYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F13D7254180800001AFC7 /* YYLabel.m */; };
+		E72F1407254180810001AFC7 /* YYTextRunDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F13DB254180800001AFC7 /* YYTextRunDelegate.m */; };
+		E72F1408254180810001AFC7 /* YYTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F13DC254180800001AFC7 /* YYTextParser.m */; };
+		E72F1409254180810001AFC7 /* YYTextAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F13E0254180800001AFC7 /* YYTextAttribute.m */; };
+		E72F140A254180810001AFC7 /* YYTextArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F13E2254180800001AFC7 /* YYTextArchiver.m */; };
+		E72F140B254180810001AFC7 /* YYTextRubyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F13E3254180800001AFC7 /* YYTextRubyAnnotation.m */; };
+		E72F140C254180810001AFC7 /* YYTextUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F13E6254180800001AFC7 /* YYTextUtilities.m */; };
+		E72F140D254180810001AFC7 /* NSParagraphStyle+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F13E7254180800001AFC7 /* NSParagraphStyle+YYText.m */; };
+		E72F140E254180810001AFC7 /* NSAttributedString+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F13E8254180800001AFC7 /* NSAttributedString+YYText.m */; };
+		E72F140F254180810001AFC7 /* UIPasteboard+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F13EB254180800001AFC7 /* UIPasteboard+YYText.m */; };
+		E72F1410254180810001AFC7 /* YYTextTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F13EF254180800001AFC7 /* YYTextTransaction.m */; };
+		E72F1411254180810001AFC7 /* UIView+YYText.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F13F0254180800001AFC7 /* UIView+YYText.m */; };
+		E72F1412254180810001AFC7 /* YYTextAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F13F3254180800001AFC7 /* YYTextAsyncLayer.m */; };
+		E72F1413254180810001AFC7 /* YYTextWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F13F4254180800001AFC7 /* YYTextWeakProxy.m */; };
+		E72F1414254180810001AFC7 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F13F9254180800001AFC7 /* NSObject+YYModel.m */; };
+		E72F1415254180810001AFC7 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E72F13FA254180800001AFC7 /* YYClassInfo.m */; };
+		E7500A0E24E0CEE6006C611A /* VoterBallotListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E7500A0D24E0CEE6006C611A /* VoterBallotListModel.m */; };
+		E7500A2024E11615006C611A /* XLSlideSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = E7500A1A24E11614006C611A /* XLSlideSwitch.m */; };
+		E7500A2124E11615006C611A /* XLSlideSegmented.m in Sources */ = {isa = PBXBuildFile; fileRef = E7500A1D24E11614006C611A /* XLSlideSegmented.m */; };
+		E7500A2224E11615006C611A /* XLSegmentedSlideSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = E7500A1E24E11615006C611A /* XLSegmentedSlideSwitch.m */; };
+		E7500A2324E11615006C611A /* XLSlideSegmentedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E7500A1F24E11615006C611A /* XLSlideSegmentedItem.m */; };
+		E7500A2624E116C2006C611A /* VoterRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7500A2524E116C2006C611A /* VoterRegisterViewController.m */; };
+		E757CA9124FA030C001F8329 /* CountyInfo.txt in Resources */ = {isa = PBXBuildFile; fileRef = E757CA8F24FA030C001F8329 /* CountyInfo.txt */; };
+		E757CA9224FA030C001F8329 /* StateInfo.txt in Resources */ = {isa = PBXBuildFile; fileRef = E757CA9024FA030C001F8329 /* StateInfo.txt */; };
+		E757CA9724FA045A001F8329 /* CountyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E757CA9524FA045A001F8329 /* CountyInfo.m */; };
+		E757CA9824FA045A001F8329 /* StateInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E757CA9624FA045A001F8329 /* StateInfo.m */; };
+		E75E4CFF24F7A3FC00970733 /* BallotsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E75E4CFE24F7A3FC00970733 /* BallotsViewController.m */; };
+		E75E4D0324F7A46A00970733 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E75E4D0224F7A46A00970733 /* HttpTool.m */; };
+		E75E4D0424F8898C00970733 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7FB926824D5398A00DD30D5 /* libcrypto.a */; };
+		E75E4D0724F890A100970733 /* ElectionListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E75E4D0624F890A100970733 /* ElectionListModel.m */; };
+		E75E4D0A24F890AE00970733 /* ElectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E75E4D0924F890AE00970733 /* ElectionModel.m */; };
+		E75E4D0D24F890CF00970733 /* SeatListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E75E4D0C24F890CF00970733 /* SeatListModel.m */; };
+		E75E4D1024F890DE00970733 /* SeatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E75E4D0F24F890DE00970733 /* SeatModel.m */; };
+		E75E4D1324F890E900970733 /* CandidateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E75E4D1224F890E900970733 /* CandidateModel.m */; };
+		E75E4D1824F89B6400970733 /* VerifycationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E75E4D1724F89B6400970733 /* VerifycationCell.m */; };
+		E75E4D1B24F8A1A900970733 /* BallotHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E75E4D1A24F8A1A900970733 /* BallotHomeViewController.m */; };
+		E75E4D1D24F8B31C00970733 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75E4D1C24F8B31C00970733 /* CoreGraphics.framework */; };
+		E75E4D1F24F8B34000970733 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75E4D1E24F8B34000970733 /* Foundation.framework */; };
+		E75E4D2124F8B34A00970733 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75E4D2024F8B34A00970733 /* SystemConfiguration.framework */; };
+		E75E4D2324F8C6F700970733 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75E4D2224F8C6F700970733 /* AudioToolbox.framework */; };
+		E75E4D2524F8C70C00970733 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75E4D2424F8C70C00970733 /* CoreTelephony.framework */; };
+		E75E4D2724F8C8BE00970733 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75E4D2624F8C8BD00970733 /* CoreText.framework */; };
+		E75E4D2924F8C8CA00970733 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75E4D2824F8C8CA00970733 /* CoreLocation.framework */; };
+		E75E4D2B24F8C95A00970733 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75E4D2A24F8C95A00970733 /* AVFoundation.framework */; };
+		E75E4D2D24F8E10600970733 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75E4D2C24F8E10600970733 /* LocalAuthentication.framework */; };
+		E75E4D6324F8FBC300970733 /* PopSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = E75E4D6124F8FBC300970733 /* PopSignatureView.m */; };
+		E75E4D6424F8FBC300970733 /* EasySignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = E75E4D6224F8FBC300970733 /* EasySignatureView.m */; };
+		E75E4D6724F90B2F00970733 /* BallotTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E75E4D6624F90B2F00970733 /* BallotTableViewCell.m */; };
+		E75E4D6A24F9215900970733 /* BallotHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = E75E4D6924F9215900970733 /* BallotHeader.m */; };
+		E75E4D6D24F9351C00970733 /* ConfirmVoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E75E4D6C24F9351C00970733 /* ConfirmVoteViewController.m */; };
+		E76629AF24E4C5C2006D5A76 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E76629AE24E4C5C2006D5A76 /* CameraViewController.m */; };
+		E76629B224E4CBE0006D5A76 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E76629B124E4CBE0006D5A76 /* HomeViewController.m */; };
+		E76629B524E4CC1C006D5A76 /* GOTVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E76629B424E4CC1C006D5A76 /* GOTVViewController.m */; };
+		E76629BF24E5086F006D5A76 /* DropListView.m in Sources */ = {isa = PBXBuildFile; fileRef = E76629BE24E5086F006D5A76 /* DropListView.m */; };
+		E767A5B225008CD4001BAC4F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E767A5B125008CD4001BAC4F /* MainViewController.m */; };
+		E767A5BF2501C3F2001BAC4F /* votingProgressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E767A5BE2501C3F2001BAC4F /* votingProgressModel.m */; };
+		E767A5C22501E8F9001BAC4F /* ResultBallotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E767A5C12501E8F9001BAC4F /* ResultBallotViewController.m */; };
+		E767A5C525024B5F001BAC4F /* VoteDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E767A5C425024B5F001BAC4F /* VoteDataModel.m */; };
+		E767A5F825035CD6001BAC4F /* Precincts.csv in Resources */ = {isa = PBXBuildFile; fileRef = E767A5F725035CD6001BAC4F /* Precincts.csv */; };
+		E767A5FB25035E77001BAC4F /* PrecinctInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E767A5FA25035E77001BAC4F /* PrecinctInfo.m */; };
+		E767A6022503717A001BAC4F /* RegisterLinkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E767A6012503717A001BAC4F /* RegisterLinkModel.m */; };
+		E767A604250381AB001BAC4F /* Links.csv in Resources */ = {isa = PBXBuildFile; fileRef = E767A603250381AA001BAC4F /* Links.csv */; };
+		E78DE30A25132A5D003E81AB /* BallotResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E78DE30925132A5D003E81AB /* BallotResultModel.m */; };
+		E7C690332505E1790018AD7E /* VoteDemoHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C690322505E1790018AD7E /* VoteDemoHUD.m */; };
+		E7FB917E24D4F55300DD30D5 /* CustomTextfield.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FB917D24D4F55300DD30D5 /* CustomTextfield.m */; };
+		E7FB918624D4F59C00DD30D5 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FB918324D4F59C00DD30D5 /* NSString+Extension.m */; };
+		E7FB918824D4F59C00DD30D5 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FB918524D4F59C00DD30D5 /* UIView+Extension.m */; };
+		E7FB91FE24D501F100DD30D5 /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E7FB91FD24D501E700DD30D5 /* libc++.1.tbd */; };
+		E7FB920024D5020500DD30D5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E7FB91FF24D501FB00DD30D5 /* libz.tbd */; };
+		E7FB925624D5318E00DD30D5 /* BallotListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FB925524D5318E00DD30D5 /* BallotListModel.m */; };
+		E7FB92C024D5398B00DD30D5 /* RSATool.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FB926424D5398A00DD30D5 /* RSATool.m */; };
+		E7FB92C224D5398B00DD30D5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E7FB926A24D5398A00DD30D5 /* LICENSE */; };
+		E7FB92C324D5398B00DD30D5 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7FB926B24D5398A00DD30D5 /* libssl.a */; };
+		E7FCA3EC24FDD932001FB854 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FCA3E724FDD932001FB854 /* UserInfo.m */; };
+		E7FCA3ED24FDD932001FB854 /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FCA3E924FDD932001FB854 /* UserManager.m */; };
+		E7FCA3F024FE1CB2001FB854 /* CustomMethodTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FCA3EF24FE1CB2001FB854 /* CustomMethodTool.m */; };
+		E7FCA3FF24FF2B26001FB854 /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FCA3F824FF2B26001FB854 /* YYSpriteSheetImage.m */; };
+		E7FCA40024FF2B26001FB854 /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FCA3FA24FF2B26001FB854 /* YYImage.m */; };
+		E7FCA40124FF2B26001FB854 /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FCA3FB24FF2B26001FB854 /* YYImageCoder.m */; };
+		E7FCA40224FF2B26001FB854 /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FCA3FC24FF2B26001FB854 /* YYFrameImage.m */; };
+		E7FCA40324FF2B26001FB854 /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FCA3FD24FF2B26001FB854 /* YYAnimatedImageView.m */; };
+		E7FCA40624FF33EB001FB854 /* VerifyVoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FCA40524FF33EB001FB854 /* VerifyVoteViewController.m */; };
+		E7FCA40924FF5FE1001FB854 /* VerifyConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FCA40824FF5FE1001FB854 /* VerifyConfirmViewController.m */; };
+		E7FCA40C24FF6AAB001FB854 /* VotingProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FCA40B24FF6AAB001FB854 /* VotingProgressViewController.m */; };
+		E7FCA40F24FF79C6001FB854 /* BallotVotedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FCA40E24FF79C6001FB854 /* BallotVotedModel.m */; };
+		E7FE904024D2C9C300C4D7E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FE903F24D2C9C300C4D7E1 /* AppDelegate.m */; };
+		E7FE904924D2C9C300C4D7E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7FE904724D2C9C300C4D7E1 /* Main.storyboard */; };
+		E7FE904B24D2C9C900C4D7E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7FE904A24D2C9C900C4D7E1 /* Assets.xcassets */; };
+		E7FE904E24D2C9C900C4D7E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7FE904C24D2C9C900C4D7E1 /* LaunchScreen.storyboard */; };
+		E7FE905124D2C9C900C4D7E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FE905024D2C9C900C4D7E1 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		304D9E07F79D564422E8DFC6 /* Pods-VoteDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteDemo.debug.xcconfig"; path = "Target Support Files/Pods-VoteDemo/Pods-VoteDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		642D5AB52EA163FBE2EAFCB0 /* libPods-VoteDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoteDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED82B3B687EF3884D430B26 /* Pods-VoteDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteDemo.release.xcconfig"; path = "Target Support Files/Pods-VoteDemo/Pods-VoteDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E70E24572511F91400536F3D /* RSAEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAEncryptor.m; sourceTree = "<group>"; };
+		E70E24582511F91400536F3D /* RSAEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAEncryptor.h; sourceTree = "<group>"; };
+		E72112C9252FF947005A74D5 /* InvitationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InvitationModel.h; sourceTree = "<group>"; };
+		E72112CA252FF947005A74D5 /* InvitationModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InvitationModel.m; sourceTree = "<group>"; };
+		E72112CF252FF9EA005A74D5 /* InvitationListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InvitationListViewController.h; sourceTree = "<group>"; };
+		E72112D0252FF9EA005A74D5 /* InvitationListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InvitationListViewController.m; sourceTree = "<group>"; };
+		E72112D225300B38005A74D5 /* InvitationHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InvitationHomeViewController.h; sourceTree = "<group>"; };
+		E72112D325300B38005A74D5 /* InvitationHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InvitationHomeViewController.m; sourceTree = "<group>"; };
+		E72F13C2254180800001AFC7 /* YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYText.h; sourceTree = "<group>"; };
+		E72F13C3254180800001AFC7 /* YYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextView.m; sourceTree = "<group>"; };
+		E72F13C5254180800001AFC7 /* YYTextSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextSelectionView.h; sourceTree = "<group>"; };
+		E72F13C6254180800001AFC7 /* YYTextLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextLine.h; sourceTree = "<group>"; };
+		E72F13C7254180800001AFC7 /* YYTextMagnifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextMagnifier.m; sourceTree = "<group>"; };
+		E72F13C8254180800001AFC7 /* YYTextLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextLayout.h; sourceTree = "<group>"; };
+		E72F13C9254180800001AFC7 /* YYTextKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextKeyboardManager.h; sourceTree = "<group>"; };
+		E72F13CA254180800001AFC7 /* YYTextContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextContainerView.m; sourceTree = "<group>"; };
+		E72F13CB254180800001AFC7 /* YYTextEffectWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextEffectWindow.m; sourceTree = "<group>"; };
+		E72F13CC254180800001AFC7 /* YYTextDebugOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextDebugOption.h; sourceTree = "<group>"; };
+		E72F13CD254180800001AFC7 /* YYTextInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextInput.m; sourceTree = "<group>"; };
+		E72F13CE254180800001AFC7 /* YYTextLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextLayout.m; sourceTree = "<group>"; };
+		E72F13CF254180800001AFC7 /* YYTextMagnifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextMagnifier.h; sourceTree = "<group>"; };
+		E72F13D0254180800001AFC7 /* YYTextLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextLine.m; sourceTree = "<group>"; };
+		E72F13D1254180800001AFC7 /* YYTextSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextSelectionView.m; sourceTree = "<group>"; };
+		E72F13D2254180800001AFC7 /* YYTextEffectWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextEffectWindow.h; sourceTree = "<group>"; };
+		E72F13D3254180800001AFC7 /* YYTextContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextContainerView.h; sourceTree = "<group>"; };
+		E72F13D4254180800001AFC7 /* YYTextKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextKeyboardManager.m; sourceTree = "<group>"; };
+		E72F13D5254180800001AFC7 /* YYTextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextInput.h; sourceTree = "<group>"; };
+		E72F13D6254180800001AFC7 /* YYTextDebugOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextDebugOption.m; sourceTree = "<group>"; };
+		E72F13D7254180800001AFC7 /* YYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLabel.m; sourceTree = "<group>"; };
+		E72F13D8254180800001AFC7 /* YYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextView.h; sourceTree = "<group>"; };
+		E72F13DA254180800001AFC7 /* YYTextAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextAttribute.h; sourceTree = "<group>"; };
+		E72F13DB254180800001AFC7 /* YYTextRunDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextRunDelegate.m; sourceTree = "<group>"; };
+		E72F13DC254180800001AFC7 /* YYTextParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextParser.m; sourceTree = "<group>"; };
+		E72F13DD254180800001AFC7 /* YYTextRubyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextRubyAnnotation.h; sourceTree = "<group>"; };
+		E72F13DE254180800001AFC7 /* YYTextArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextArchiver.h; sourceTree = "<group>"; };
+		E72F13DF254180800001AFC7 /* YYTextRunDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextRunDelegate.h; sourceTree = "<group>"; };
+		E72F13E0254180800001AFC7 /* YYTextAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextAttribute.m; sourceTree = "<group>"; };
+		E72F13E1254180800001AFC7 /* YYTextParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextParser.h; sourceTree = "<group>"; };
+		E72F13E2254180800001AFC7 /* YYTextArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextArchiver.m; sourceTree = "<group>"; };
+		E72F13E3254180800001AFC7 /* YYTextRubyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextRubyAnnotation.m; sourceTree = "<group>"; };
+		E72F13E4254180800001AFC7 /* YYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLabel.h; sourceTree = "<group>"; };
+		E72F13E6254180800001AFC7 /* YYTextUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextUtilities.m; sourceTree = "<group>"; };
+		E72F13E7254180800001AFC7 /* NSParagraphStyle+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSParagraphStyle+YYText.m"; sourceTree = "<group>"; };
+		E72F13E8254180800001AFC7 /* NSAttributedString+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+YYText.m"; sourceTree = "<group>"; };
+		E72F13E9254180800001AFC7 /* UIView+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYText.h"; sourceTree = "<group>"; };
+		E72F13EA254180800001AFC7 /* YYTextTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextTransaction.h; sourceTree = "<group>"; };
+		E72F13EB254180800001AFC7 /* UIPasteboard+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPasteboard+YYText.m"; sourceTree = "<group>"; };
+		E72F13EC254180800001AFC7 /* YYTextWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextWeakProxy.h; sourceTree = "<group>"; };
+		E72F13ED254180800001AFC7 /* YYTextAsyncLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextAsyncLayer.h; sourceTree = "<group>"; };
+		E72F13EE254180800001AFC7 /* YYTextUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTextUtilities.h; sourceTree = "<group>"; };
+		E72F13EF254180800001AFC7 /* YYTextTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextTransaction.m; sourceTree = "<group>"; };
+		E72F13F0254180800001AFC7 /* UIView+YYText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYText.m"; sourceTree = "<group>"; };
+		E72F13F1254180800001AFC7 /* NSAttributedString+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+YYText.h"; sourceTree = "<group>"; };
+		E72F13F2254180800001AFC7 /* NSParagraphStyle+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSParagraphStyle+YYText.h"; sourceTree = "<group>"; };
+		E72F13F3254180800001AFC7 /* YYTextAsyncLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextAsyncLayer.m; sourceTree = "<group>"; };
+		E72F13F4254180800001AFC7 /* YYTextWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTextWeakProxy.m; sourceTree = "<group>"; };
+		E72F13F5254180800001AFC7 /* UIPasteboard+YYText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPasteboard+YYText.h"; sourceTree = "<group>"; };
+		E72F13F7254180800001AFC7 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		E72F13F8254180800001AFC7 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		E72F13F9254180800001AFC7 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		E72F13FA254180800001AFC7 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		E72F13FB254180800001AFC7 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		E7500A0C24E0CEE6006C611A /* VoterBallotListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoterBallotListModel.h; sourceTree = "<group>"; };
+		E7500A0D24E0CEE6006C611A /* VoterBallotListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoterBallotListModel.m; sourceTree = "<group>"; };
+		E7500A1724E11614006C611A /* XLSlideSegmentedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSlideSegmentedItem.h; sourceTree = "<group>"; };
+		E7500A1824E11614006C611A /* XLSlideSegmented.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSlideSegmented.h; sourceTree = "<group>"; };
+		E7500A1924E11614006C611A /* XLSlideSwitchDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSlideSwitchDelegate.h; sourceTree = "<group>"; };
+		E7500A1A24E11614006C611A /* XLSlideSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSlideSwitch.m; sourceTree = "<group>"; };
+		E7500A1B24E11614006C611A /* XLSlideSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSlideSwitch.h; sourceTree = "<group>"; };
+		E7500A1C24E11614006C611A /* XLSegmentedSlideSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSegmentedSlideSwitch.h; sourceTree = "<group>"; };
+		E7500A1D24E11614006C611A /* XLSlideSegmented.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSlideSegmented.m; sourceTree = "<group>"; };
+		E7500A1E24E11615006C611A /* XLSegmentedSlideSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSegmentedSlideSwitch.m; sourceTree = "<group>"; };
+		E7500A1F24E11615006C611A /* XLSlideSegmentedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSlideSegmentedItem.m; sourceTree = "<group>"; };
+		E7500A2424E116C2006C611A /* VoterRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoterRegisterViewController.h; sourceTree = "<group>"; };
+		E7500A2524E116C2006C611A /* VoterRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoterRegisterViewController.m; sourceTree = "<group>"; };
+		E757CA8F24FA030C001F8329 /* CountyInfo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CountyInfo.txt; sourceTree = "<group>"; };
+		E757CA9024FA030C001F8329 /* StateInfo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = StateInfo.txt; sourceTree = "<group>"; };
+		E757CA9324FA0459001F8329 /* CountyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountyInfo.h; sourceTree = "<group>"; };
+		E757CA9424FA0459001F8329 /* StateInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateInfo.h; sourceTree = "<group>"; };
+		E757CA9524FA045A001F8329 /* CountyInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountyInfo.m; sourceTree = "<group>"; };
+		E757CA9624FA045A001F8329 /* StateInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateInfo.m; sourceTree = "<group>"; };
+		E75E4CFD24F7A3FC00970733 /* BallotsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BallotsViewController.h; sourceTree = "<group>"; };
+		E75E4CFE24F7A3FC00970733 /* BallotsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BallotsViewController.m; sourceTree = "<group>"; };
+		E75E4D0124F7A46A00970733 /* HttpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
+		E75E4D0224F7A46A00970733 /* HttpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
+		E75E4D0524F890A100970733 /* ElectionListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElectionListModel.h; sourceTree = "<group>"; };
+		E75E4D0624F890A100970733 /* ElectionListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElectionListModel.m; sourceTree = "<group>"; };
+		E75E4D0824F890AE00970733 /* ElectionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElectionModel.h; sourceTree = "<group>"; };
+		E75E4D0924F890AE00970733 /* ElectionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElectionModel.m; sourceTree = "<group>"; };
+		E75E4D0B24F890CF00970733 /* SeatListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeatListModel.h; sourceTree = "<group>"; };
+		E75E4D0C24F890CF00970733 /* SeatListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeatListModel.m; sourceTree = "<group>"; };
+		E75E4D0E24F890DE00970733 /* SeatModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeatModel.h; sourceTree = "<group>"; };
+		E75E4D0F24F890DE00970733 /* SeatModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeatModel.m; sourceTree = "<group>"; };
+		E75E4D1124F890E900970733 /* CandidateModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CandidateModel.h; sourceTree = "<group>"; };
+		E75E4D1224F890E900970733 /* CandidateModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CandidateModel.m; sourceTree = "<group>"; };
+		E75E4D1624F89B6400970733 /* VerifycationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerifycationCell.h; sourceTree = "<group>"; };
+		E75E4D1724F89B6400970733 /* VerifycationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerifycationCell.m; sourceTree = "<group>"; };
+		E75E4D1924F8A1A900970733 /* BallotHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BallotHomeViewController.h; sourceTree = "<group>"; };
+		E75E4D1A24F8A1A900970733 /* BallotHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BallotHomeViewController.m; sourceTree = "<group>"; };
+		E75E4D1C24F8B31C00970733 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E75E4D1E24F8B34000970733 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E75E4D2024F8B34A00970733 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E75E4D2224F8C6F700970733 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E75E4D2424F8C70C00970733 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		E75E4D2624F8C8BD00970733 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		E75E4D2824F8C8CA00970733 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E75E4D2A24F8C95A00970733 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E75E4D2C24F8E10600970733 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		E75E4D5F24F8FBC300970733 /* EasySignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasySignatureView.h; sourceTree = "<group>"; };
+		E75E4D6024F8FBC300970733 /* PopSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopSignatureView.h; sourceTree = "<group>"; };
+		E75E4D6124F8FBC300970733 /* PopSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopSignatureView.m; sourceTree = "<group>"; };
+		E75E4D6224F8FBC300970733 /* EasySignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasySignatureView.m; sourceTree = "<group>"; };
+		E75E4D6524F90B2F00970733 /* BallotTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BallotTableViewCell.h; sourceTree = "<group>"; };
+		E75E4D6624F90B2F00970733 /* BallotTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BallotTableViewCell.m; sourceTree = "<group>"; };
+		E75E4D6824F9215900970733 /* BallotHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BallotHeader.h; sourceTree = "<group>"; };
+		E75E4D6924F9215900970733 /* BallotHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BallotHeader.m; sourceTree = "<group>"; };
+		E75E4D6B24F9351C00970733 /* ConfirmVoteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfirmVoteViewController.h; sourceTree = "<group>"; };
+		E75E4D6C24F9351C00970733 /* ConfirmVoteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfirmVoteViewController.m; sourceTree = "<group>"; };
+		E76629AD24E4C5C2006D5A76 /* CameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		E76629AE24E4C5C2006D5A76 /* CameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		E76629B024E4CBE0006D5A76 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		E76629B124E4CBE0006D5A76 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		E76629B324E4CC1C006D5A76 /* GOTVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOTVViewController.h; sourceTree = "<group>"; };
+		E76629B424E4CC1C006D5A76 /* GOTVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOTVViewController.m; sourceTree = "<group>"; };
+		E76629BD24E5086F006D5A76 /* DropListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropListView.h; sourceTree = "<group>"; };
+		E76629BE24E5086F006D5A76 /* DropListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropListView.m; sourceTree = "<group>"; };
+		E767A5B025008CD4001BAC4F /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		E767A5B125008CD4001BAC4F /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		E767A5BD2501C3F2001BAC4F /* votingProgressModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = votingProgressModel.h; sourceTree = "<group>"; };
+		E767A5BE2501C3F2001BAC4F /* votingProgressModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = votingProgressModel.m; sourceTree = "<group>"; };
+		E767A5C02501E8F9001BAC4F /* ResultBallotViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultBallotViewController.h; sourceTree = "<group>"; };
+		E767A5C12501E8F9001BAC4F /* ResultBallotViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultBallotViewController.m; sourceTree = "<group>"; };
+		E767A5C325024B5F001BAC4F /* VoteDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoteDataModel.h; sourceTree = "<group>"; };
+		E767A5C425024B5F001BAC4F /* VoteDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoteDataModel.m; sourceTree = "<group>"; };
+		E767A5F725035CD6001BAC4F /* Precincts.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Precincts.csv; sourceTree = "<group>"; };
+		E767A5F925035E77001BAC4F /* PrecinctInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrecinctInfo.h; sourceTree = "<group>"; };
+		E767A5FA25035E77001BAC4F /* PrecinctInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrecinctInfo.m; sourceTree = "<group>"; };
+		E767A6002503717A001BAC4F /* RegisterLinkModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterLinkModel.h; sourceTree = "<group>"; };
+		E767A6012503717A001BAC4F /* RegisterLinkModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterLinkModel.m; sourceTree = "<group>"; };
+		E767A603250381AA001BAC4F /* Links.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Links.csv; sourceTree = "<group>"; };
+		E78DE30825132A5D003E81AB /* BallotResultModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BallotResultModel.h; sourceTree = "<group>"; };
+		E78DE30925132A5D003E81AB /* BallotResultModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BallotResultModel.m; sourceTree = "<group>"; };
+		E7C690312505E1790018AD7E /* VoteDemoHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoteDemoHUD.h; sourceTree = "<group>"; };
+		E7C690322505E1790018AD7E /* VoteDemoHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoteDemoHUD.m; sourceTree = "<group>"; };
+		E7FB917C24D4F55300DD30D5 /* CustomTextfield.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTextfield.h; sourceTree = "<group>"; };
+		E7FB917D24D4F55300DD30D5 /* CustomTextfield.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTextfield.m; sourceTree = "<group>"; };
+		E7FB918024D4F59C00DD30D5 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		E7FB918124D4F59C00DD30D5 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		E7FB918324D4F59C00DD30D5 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		E7FB918524D4F59C00DD30D5 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		E7FB91FD24D501E700DD30D5 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		E7FB91FF24D501FB00DD30D5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E7FB925424D5318E00DD30D5 /* BallotListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BallotListModel.h; sourceTree = "<group>"; };
+		E7FB925524D5318E00DD30D5 /* BallotListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BallotListModel.m; sourceTree = "<group>"; };
+		E7FB926224D5398A00DD30D5 /* RSATool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSATool.h; sourceTree = "<group>"; };
+		E7FB926424D5398A00DD30D5 /* RSATool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSATool.m; sourceTree = "<group>"; };
+		E7FB926824D5398A00DD30D5 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		E7FB926924D5398A00DD30D5 /* opensslconf-template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "opensslconf-template.h"; sourceTree = "<group>"; };
+		E7FB926A24D5398A00DD30D5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E7FB926B24D5398A00DD30D5 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		E7FB926D24D5398A00DD30D5 /* pem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem2.h; sourceTree = "<group>"; };
+		E7FB926E24D5398A00DD30D5 /* pem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem.h; sourceTree = "<group>"; };
+		E7FB926F24D5398A00DD30D5 /* ssl3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl3.h; sourceTree = "<group>"; };
+		E7FB927024D5398A00DD30D5 /* ossl_typ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ossl_typ.h; sourceTree = "<group>"; };
+		E7FB927124D5398A00DD30D5 /* dtls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtls1.h; sourceTree = "<group>"; };
+		E7FB927224D5398A00DD30D5 /* err.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = err.h; sourceTree = "<group>"; };
+		E7FB927324D5398A00DD30D5 /* bn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bn.h; sourceTree = "<group>"; };
+		E7FB927424D5398A00DD30D5 /* blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blowfish.h; sourceTree = "<group>"; };
+		E7FB927524D5398A00DD30D5 /* cms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cms.h; sourceTree = "<group>"; };
+		E7FB927624D5398A00DD30D5 /* engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
+		E7FB927724D5398A00DD30D5 /* conf_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf_api.h; sourceTree = "<group>"; };
+		E7FB927824D5398A00DD30D5 /* x509.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
+		E7FB927924D5398A00DD30D5 /* asn1_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1_mac.h; sourceTree = "<group>"; };
+		E7FB927A24D5398A00DD30D5 /* opensslconf_ios_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslconf_ios_x86_64.h; sourceTree = "<group>"; };
+		E7FB927B24D5398A00DD30D5 /* ui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
+		E7FB927C24D5398A00DD30D5 /* kssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kssl.h; sourceTree = "<group>"; };
+		E7FB927D24D5398A00DD30D5 /* opensslconf_tvos_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslconf_tvos_x86_64.h; sourceTree = "<group>"; };
+		E7FB927E24D5398A00DD30D5 /* opensslconf_ios_armv7s.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslconf_ios_armv7s.h; sourceTree = "<group>"; };
+		E7FB927F24D5398A00DD30D5 /* sha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
+		E7FB928024D5398A00DD30D5 /* symhacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symhacks.h; sourceTree = "<group>"; };
+		E7FB928124D5398A00DD30D5 /* asn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
+		E7FB928224D5398A00DD30D5 /* opensslconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslconf.h; sourceTree = "<group>"; };
+		E7FB928324D5398A00DD30D5 /* opensslconf_ios_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslconf_ios_i386.h; sourceTree = "<group>"; };
+		E7FB928424D5398A00DD30D5 /* bio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bio.h; sourceTree = "<group>"; };
+		E7FB928524D5398A00DD30D5 /* rc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc2.h; sourceTree = "<group>"; };
+		E7FB928624D5398A00DD30D5 /* dh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		E7FB928724D5398A00DD30D5 /* ui_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui_compat.h; sourceTree = "<group>"; };
+		E7FB928824D5398A00DD30D5 /* x509v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
+		E7FB928924D5398A00DD30D5 /* ssl23.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl23.h; sourceTree = "<group>"; };
+		E7FB928A24D5398A00DD30D5 /* conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
+		E7FB928B24D5398A00DD30D5 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		E7FB928C24D5398A00DD30D5 /* x509_vfy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
+		E7FB928D24D5398A00DD30D5 /* txt_db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = txt_db.h; sourceTree = "<group>"; };
+		E7FB928E24D5398A00DD30D5 /* safestack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = safestack.h; sourceTree = "<group>"; };
+		E7FB928F24D5398A00DD30D5 /* ecdsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
+		E7FB929024D5398A00DD30D5 /* objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objects.h; sourceTree = "<group>"; };
+		E7FB929124D5398A00DD30D5 /* pkcs12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs12.h; sourceTree = "<group>"; };
+		E7FB929224D5398A00DD30D5 /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		E7FB929324D5398A00DD30D5 /* opensslv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslv.h; sourceTree = "<group>"; };
+		E7FB929424D5398A00DD30D5 /* pkcs7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs7.h; sourceTree = "<group>"; };
+		E7FB929524D5398A00DD30D5 /* obj_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = obj_mac.h; sourceTree = "<group>"; };
+		E7FB929624D5398A00DD30D5 /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		E7FB929724D5398A00DD30D5 /* ssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl.h; sourceTree = "<group>"; };
+		E7FB929824D5398A00DD30D5 /* srp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srp.h; sourceTree = "<group>"; };
+		E7FB929924D5398A00DD30D5 /* camellia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camellia.h; sourceTree = "<group>"; };
+		E7FB929A24D5398A00DD30D5 /* opensslconf_ios_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslconf_ios_arm64.h; sourceTree = "<group>"; };
+		E7FB929B24D5398A00DD30D5 /* evp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evp.h; sourceTree = "<group>"; };
+		E7FB929C24D5398A00DD30D5 /* e_os2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e_os2.h; sourceTree = "<group>"; };
+		E7FB929D24D5398A00DD30D5 /* md4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md4.h; sourceTree = "<group>"; };
+		E7FB929E24D5398A00DD30D5 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		E7FB929F24D5398A00DD30D5 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		E7FB92A024D5398A00DD30D5 /* comp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comp.h; sourceTree = "<group>"; };
+		E7FB92A124D5398A00DD30D5 /* cast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cast.h; sourceTree = "<group>"; };
+		E7FB92A224D5398A00DD30D5 /* rc4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc4.h; sourceTree = "<group>"; };
+		E7FB92A324D5398A00DD30D5 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		E7FB92A424D5398A00DD30D5 /* des.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des.h; sourceTree = "<group>"; };
+		E7FB92A524D5398A00DD30D5 /* ocsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocsp.h; sourceTree = "<group>"; };
+		E7FB92A624D5398A00DD30D5 /* ec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ec.h; sourceTree = "<group>"; };
+		E7FB92A724D5398A00DD30D5 /* ecdh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdh.h; sourceTree = "<group>"; };
+		E7FB92A824D5398A00DD30D5 /* rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
+		E7FB92A924D5398A00DD30D5 /* opensslconf_ios_armv7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslconf_ios_armv7.h; sourceTree = "<group>"; };
+		E7FB92AA24D5398A00DD30D5 /* opensslconf_tvos_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslconf_tvos_arm64.h; sourceTree = "<group>"; };
+		E7FB92AB24D5398A00DD30D5 /* ts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ts.h; sourceTree = "<group>"; };
+		E7FB92AC24D5398A00DD30D5 /* pqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
+		E7FB92AD24D5398A00DD30D5 /* dso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dso.h; sourceTree = "<group>"; };
+		E7FB92AE24D5398A00DD30D5 /* seed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = seed.h; sourceTree = "<group>"; };
+		E7FB92AF24D5398A00DD30D5 /* modes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modes.h; sourceTree = "<group>"; };
+		E7FB92B024D5398A00DD30D5 /* ssl2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl2.h; sourceTree = "<group>"; };
+		E7FB92B124D5398A00DD30D5 /* rsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsa.h; sourceTree = "<group>"; };
+		E7FB92B224D5398A00DD30D5 /* krb5_asn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = krb5_asn.h; sourceTree = "<group>"; };
+		E7FB92B324D5398A00DD30D5 /* des_old.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des_old.h; sourceTree = "<group>"; };
+		E7FB92B424D5398B00DD30D5 /* ripemd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd.h; sourceTree = "<group>"; };
+		E7FB92B524D5398B00DD30D5 /* whrlpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whrlpool.h; sourceTree = "<group>"; };
+		E7FB92B624D5398B00DD30D5 /* tls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tls1.h; sourceTree = "<group>"; };
+		E7FB92B724D5398B00DD30D5 /* mdc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mdc2.h; sourceTree = "<group>"; };
+		E7FB92B824D5398B00DD30D5 /* dsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dsa.h; sourceTree = "<group>"; };
+		E7FB92B924D5398B00DD30D5 /* srtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srtp.h; sourceTree = "<group>"; };
+		E7FB92BA24D5398B00DD30D5 /* asn1t.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1t.h; sourceTree = "<group>"; };
+		E7FB92BB24D5398B00DD30D5 /* cmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmac.h; sourceTree = "<group>"; };
+		E7FB92BC24D5398B00DD30D5 /* ebcdic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ebcdic.h; sourceTree = "<group>"; };
+		E7FB92BD24D5398B00DD30D5 /* idea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
+		E7FB92BE24D5398B00DD30D5 /* lhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
+		E7FCA3E624FDD932001FB854 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		E7FCA3E724FDD932001FB854 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		E7FCA3E824FDD932001FB854 /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
+		E7FCA3E924FDD932001FB854 /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserManager.m; sourceTree = "<group>"; };
+		E7FCA3EE24FE1CB2001FB854 /* CustomMethodTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomMethodTool.h; sourceTree = "<group>"; };
+		E7FCA3EF24FE1CB2001FB854 /* CustomMethodTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomMethodTool.m; sourceTree = "<group>"; };
+		E7FCA3F524FF2B26001FB854 /* YYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImage.h; sourceTree = "<group>"; };
+		E7FCA3F624FF2B26001FB854 /* YYImageCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImageCoder.h; sourceTree = "<group>"; };
+		E7FCA3F724FF2B26001FB854 /* YYFrameImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFrameImage.h; sourceTree = "<group>"; };
+		E7FCA3F824FF2B26001FB854 /* YYSpriteSheetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSpriteSheetImage.m; sourceTree = "<group>"; };
+		E7FCA3F924FF2B26001FB854 /* YYAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAnimatedImageView.h; sourceTree = "<group>"; };
+		E7FCA3FA24FF2B26001FB854 /* YYImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImage.m; sourceTree = "<group>"; };
+		E7FCA3FB24FF2B26001FB854 /* YYImageCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImageCoder.m; sourceTree = "<group>"; };
+		E7FCA3FC24FF2B26001FB854 /* YYFrameImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFrameImage.m; sourceTree = "<group>"; };
+		E7FCA3FD24FF2B26001FB854 /* YYAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAnimatedImageView.m; sourceTree = "<group>"; };
+		E7FCA3FE24FF2B26001FB854 /* YYSpriteSheetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSpriteSheetImage.h; sourceTree = "<group>"; };
+		E7FCA40424FF33EB001FB854 /* VerifyVoteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerifyVoteViewController.h; sourceTree = "<group>"; };
+		E7FCA40524FF33EB001FB854 /* VerifyVoteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerifyVoteViewController.m; sourceTree = "<group>"; };
+		E7FCA40724FF5FE1001FB854 /* VerifyConfirmViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerifyConfirmViewController.h; sourceTree = "<group>"; };
+		E7FCA40824FF5FE1001FB854 /* VerifyConfirmViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerifyConfirmViewController.m; sourceTree = "<group>"; };
+		E7FCA40A24FF6AAB001FB854 /* VotingProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VotingProgressViewController.h; sourceTree = "<group>"; };
+		E7FCA40B24FF6AAB001FB854 /* VotingProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VotingProgressViewController.m; sourceTree = "<group>"; };
+		E7FCA40D24FF79C6001FB854 /* BallotVotedModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BallotVotedModel.h; sourceTree = "<group>"; };
+		E7FCA40E24FF79C6001FB854 /* BallotVotedModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BallotVotedModel.m; sourceTree = "<group>"; };
+		E7FE903B24D2C9C300C4D7E1 /* VoteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7FE903E24D2C9C300C4D7E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7FE903F24D2C9C300C4D7E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7FE904824D2C9C300C4D7E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7FE904A24D2C9C900C4D7E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7FE904D24D2C9C900C4D7E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7FE904F24D2C9C900C4D7E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7FE905024D2C9C900C4D7E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7FE905724D2CCA900C4D7E1 /* VoteDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoteDemo.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7FE903824D2C9C300C4D7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75E4D2D24F8E10600970733 /* LocalAuthentication.framework in Frameworks */,
+				E75E4D2B24F8C95A00970733 /* AVFoundation.framework in Frameworks */,
+				E75E4D2924F8C8CA00970733 /* CoreLocation.framework in Frameworks */,
+				E75E4D2724F8C8BE00970733 /* CoreText.framework in Frameworks */,
+				E75E4D2524F8C70C00970733 /* CoreTelephony.framework in Frameworks */,
+				E75E4D2324F8C6F700970733 /* AudioToolbox.framework in Frameworks */,
+				E75E4D2124F8B34A00970733 /* SystemConfiguration.framework in Frameworks */,
+				E75E4D1F24F8B34000970733 /* Foundation.framework in Frameworks */,
+				E75E4D1D24F8B31C00970733 /* CoreGraphics.framework in Frameworks */,
+				E75E4D0424F8898C00970733 /* libcrypto.a in Frameworks */,
+				E7FB91FE24D501F100DD30D5 /* libc++.1.tbd in Frameworks */,
+				E7FB92C324D5398B00DD30D5 /* libssl.a in Frameworks */,
+				D2945910AD3A84A5C3A22724 /* libPods-VoteDemo.a in Frameworks */,
+				E7FB920024D5020500DD30D5 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		230F06CAAD0A0F0915FB8AB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E75E4D2C24F8E10600970733 /* LocalAuthentication.framework */,
+				E75E4D2A24F8C95A00970733 /* AVFoundation.framework */,
+				E75E4D2824F8C8CA00970733 /* CoreLocation.framework */,
+				E75E4D2624F8C8BD00970733 /* CoreText.framework */,
+				E75E4D2424F8C70C00970733 /* CoreTelephony.framework */,
+				E75E4D2224F8C6F700970733 /* AudioToolbox.framework */,
+				E75E4D2024F8B34A00970733 /* SystemConfiguration.framework */,
+				E75E4D1E24F8B34000970733 /* Foundation.framework */,
+				E75E4D1C24F8B31C00970733 /* CoreGraphics.framework */,
+				E7FB91FF24D501FB00DD30D5 /* libz.tbd */,
+				E7FB91FD24D501E700DD30D5 /* libc++.1.tbd */,
+				642D5AB52EA163FBE2EAFCB0 /* libPods-VoteDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E70348B0253ABDCB00B6C877 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				E76629B024E4CBE0006D5A76 /* HomeViewController.h */,
+				E76629B124E4CBE0006D5A76 /* HomeViewController.m */,
+				E76629B324E4CC1C006D5A76 /* GOTVViewController.h */,
+				E76629B424E4CC1C006D5A76 /* GOTVViewController.m */,
+				E7500A2424E116C2006C611A /* VoterRegisterViewController.h */,
+				E7500A2524E116C2006C611A /* VoterRegisterViewController.m */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		E70348B1253ABDD900B6C877 /* Ballot */ = {
+			isa = PBXGroup;
+			children = (
+				E75E4CFD24F7A3FC00970733 /* BallotsViewController.h */,
+				E75E4CFE24F7A3FC00970733 /* BallotsViewController.m */,
+				E75E4D1924F8A1A900970733 /* BallotHomeViewController.h */,
+				E75E4D1A24F8A1A900970733 /* BallotHomeViewController.m */,
+				E75E4D6B24F9351C00970733 /* ConfirmVoteViewController.h */,
+				E75E4D6C24F9351C00970733 /* ConfirmVoteViewController.m */,
+				E7FCA40424FF33EB001FB854 /* VerifyVoteViewController.h */,
+				E7FCA40524FF33EB001FB854 /* VerifyVoteViewController.m */,
+				E7FCA40724FF5FE1001FB854 /* VerifyConfirmViewController.h */,
+				E7FCA40824FF5FE1001FB854 /* VerifyConfirmViewController.m */,
+				E72112CF252FF9EA005A74D5 /* InvitationListViewController.h */,
+				E72112D0252FF9EA005A74D5 /* InvitationListViewController.m */,
+				E72112D225300B38005A74D5 /* InvitationHomeViewController.h */,
+				E72112D325300B38005A74D5 /* InvitationHomeViewController.m */,
+			);
+			path = Ballot;
+			sourceTree = "<group>";
+		};
+		E70348B2253ABDE200B6C877 /* Ballot Result */ = {
+			isa = PBXGroup;
+			children = (
+				E7FCA40A24FF6AAB001FB854 /* VotingProgressViewController.h */,
+				E7FCA40B24FF6AAB001FB854 /* VotingProgressViewController.m */,
+				E767A5C02501E8F9001BAC4F /* ResultBallotViewController.h */,
+				E767A5C12501E8F9001BAC4F /* ResultBallotViewController.m */,
+			);
+			path = "Ballot Result";
+			sourceTree = "<group>";
+		};
+		E72F13C025411A4B0001AFC7 /* Textfield */ = {
+			isa = PBXGroup;
+			children = (
+				E7FB917C24D4F55300DD30D5 /* CustomTextfield.h */,
+				E7FB917D24D4F55300DD30D5 /* CustomTextfield.m */,
+			);
+			path = Textfield;
+			sourceTree = "<group>";
+		};
+		E72F13C1254180800001AFC7 /* YYText */ = {
+			isa = PBXGroup;
+			children = (
+				E72F13C2254180800001AFC7 /* YYText.h */,
+				E72F13C3254180800001AFC7 /* YYTextView.m */,
+				E72F13C4254180800001AFC7 /* Component */,
+				E72F13D7254180800001AFC7 /* YYLabel.m */,
+				E72F13D8254180800001AFC7 /* YYTextView.h */,
+				E72F13D9254180800001AFC7 /* String */,
+				E72F13E4254180800001AFC7 /* YYLabel.h */,
+				E72F13E5254180800001AFC7 /* Utility */,
+			);
+			path = YYText;
+			sourceTree = "<group>";
+		};
+		E72F13C4254180800001AFC7 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				E72F13C5254180800001AFC7 /* YYTextSelectionView.h */,
+				E72F13C6254180800001AFC7 /* YYTextLine.h */,
+				E72F13C7254180800001AFC7 /* YYTextMagnifier.m */,
+				E72F13C8254180800001AFC7 /* YYTextLayout.h */,
+				E72F13C9254180800001AFC7 /* YYTextKeyboardManager.h */,
+				E72F13CA254180800001AFC7 /* YYTextContainerView.m */,
+				E72F13CB254180800001AFC7 /* YYTextEffectWindow.m */,
+				E72F13CC254180800001AFC7 /* YYTextDebugOption.h */,
+				E72F13CD254180800001AFC7 /* YYTextInput.m */,
+				E72F13CE254180800001AFC7 /* YYTextLayout.m */,
+				E72F13CF254180800001AFC7 /* YYTextMagnifier.h */,
+				E72F13D0254180800001AFC7 /* YYTextLine.m */,
+				E72F13D1254180800001AFC7 /* YYTextSelectionView.m */,
+				E72F13D2254180800001AFC7 /* YYTextEffectWindow.h */,
+				E72F13D3254180800001AFC7 /* YYTextContainerView.h */,
+				E72F13D4254180800001AFC7 /* YYTextKeyboardManager.m */,
+				E72F13D5254180800001AFC7 /* YYTextInput.h */,
+				E72F13D6254180800001AFC7 /* YYTextDebugOption.m */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		E72F13D9254180800001AFC7 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				E72F13DA254180800001AFC7 /* YYTextAttribute.h */,
+				E72F13DB254180800001AFC7 /* YYTextRunDelegate.m */,
+				E72F13DC254180800001AFC7 /* YYTextParser.m */,
+				E72F13DD254180800001AFC7 /* YYTextRubyAnnotation.h */,
+				E72F13DE254180800001AFC7 /* YYTextArchiver.h */,
+				E72F13DF254180800001AFC7 /* YYTextRunDelegate.h */,
+				E72F13E0254180800001AFC7 /* YYTextAttribute.m */,
+				E72F13E1254180800001AFC7 /* YYTextParser.h */,
+				E72F13E2254180800001AFC7 /* YYTextArchiver.m */,
+				E72F13E3254180800001AFC7 /* YYTextRubyAnnotation.m */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		E72F13E5254180800001AFC7 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E72F13E6254180800001AFC7 /* YYTextUtilities.m */,
+				E72F13E7254180800001AFC7 /* NSParagraphStyle+YYText.m */,
+				E72F13E8254180800001AFC7 /* NSAttributedString+YYText.m */,
+				E72F13E9254180800001AFC7 /* UIView+YYText.h */,
+				E72F13EA254180800001AFC7 /* YYTextTransaction.h */,
+				E72F13EB254180800001AFC7 /* UIPasteboard+YYText.m */,
+				E72F13EC254180800001AFC7 /* YYTextWeakProxy.h */,
+				E72F13ED254180800001AFC7 /* YYTextAsyncLayer.h */,
+				E72F13EE254180800001AFC7 /* YYTextUtilities.h */,
+				E72F13EF254180800001AFC7 /* YYTextTransaction.m */,
+				E72F13F0254180800001AFC7 /* UIView+YYText.m */,
+				E72F13F1254180800001AFC7 /* NSAttributedString+YYText.h */,
+				E72F13F2254180800001AFC7 /* NSParagraphStyle+YYText.h */,
+				E72F13F3254180800001AFC7 /* YYTextAsyncLayer.m */,
+				E72F13F4254180800001AFC7 /* YYTextWeakProxy.m */,
+				E72F13F5254180800001AFC7 /* UIPasteboard+YYText.h */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		E72F13F6254180800001AFC7 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				E72F13F7254180800001AFC7 /* YYClassInfo.h */,
+				E72F13F8254180800001AFC7 /* YYModel.h */,
+				E72F13F9254180800001AFC7 /* NSObject+YYModel.m */,
+				E72F13FA254180800001AFC7 /* YYClassInfo.m */,
+				E72F13FB254180800001AFC7 /* NSObject+YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		E7500A0F24E0E94D006C611A /* EasySignature */ = {
+			isa = PBXGroup;
+			children = (
+				E75E4D5F24F8FBC300970733 /* EasySignatureView.h */,
+				E75E4D6224F8FBC300970733 /* EasySignatureView.m */,
+				E75E4D6024F8FBC300970733 /* PopSignatureView.h */,
+				E75E4D6124F8FBC300970733 /* PopSignatureView.m */,
+			);
+			path = EasySignature;
+			sourceTree = "<group>";
+		};
+		E7500A1624E115FA006C611A /* SlideSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				E7500A1C24E11614006C611A /* XLSegmentedSlideSwitch.h */,
+				E7500A1E24E11615006C611A /* XLSegmentedSlideSwitch.m */,
+				E7500A1824E11614006C611A /* XLSlideSegmented.h */,
+				E7500A1D24E11614006C611A /* XLSlideSegmented.m */,
+				E7500A1724E11614006C611A /* XLSlideSegmentedItem.h */,
+				E7500A1F24E11615006C611A /* XLSlideSegmentedItem.m */,
+				E7500A1B24E11614006C611A /* XLSlideSwitch.h */,
+				E7500A1A24E11614006C611A /* XLSlideSwitch.m */,
+				E7500A1924E11614006C611A /* XLSlideSwitchDelegate.h */,
+			);
+			path = SlideSwitch;
+			sourceTree = "<group>";
+		};
+		E757CA8224F9FEEF001F8329 /* Cache Data */ = {
+			isa = PBXGroup;
+			children = (
+				E767A603250381AA001BAC4F /* Links.csv */,
+				E767A5F725035CD6001BAC4F /* Precincts.csv */,
+				E757CA8F24FA030C001F8329 /* CountyInfo.txt */,
+				E757CA9024FA030C001F8329 /* StateInfo.txt */,
+			);
+			path = "Cache Data";
+			sourceTree = "<group>";
+		};
+		E75E4D0024F7A45500970733 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				E75E4D0124F7A46A00970733 /* HttpTool.h */,
+				E75E4D0224F7A46A00970733 /* HttpTool.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		E75E4D1524F89B3400970733 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E75E4D1624F89B6400970733 /* VerifycationCell.h */,
+				E75E4D1724F89B6400970733 /* VerifycationCell.m */,
+				E75E4D6524F90B2F00970733 /* BallotTableViewCell.h */,
+				E75E4D6624F90B2F00970733 /* BallotTableViewCell.m */,
+				E75E4D6824F9215900970733 /* BallotHeader.h */,
+				E75E4D6924F9215900970733 /* BallotHeader.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E76629AC24E4C594006D5A76 /* AVCaptureSession */ = {
+			isa = PBXGroup;
+			children = (
+				E76629AD24E4C5C2006D5A76 /* CameraViewController.h */,
+				E76629AE24E4C5C2006D5A76 /* CameraViewController.m */,
+			);
+			path = AVCaptureSession;
+			sourceTree = "<group>";
+		};
+		E76629B624E507E8006D5A76 /* DropList */ = {
+			isa = PBXGroup;
+			children = (
+				E76629BD24E5086F006D5A76 /* DropListView.h */,
+				E76629BE24E5086F006D5A76 /* DropListView.m */,
+			);
+			path = DropList;
+			sourceTree = "<group>";
+		};
+		E7C6902D2505E0D20018AD7E /* VoteDemoHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E7C690312505E1790018AD7E /* VoteDemoHUD.h */,
+				E7C690322505E1790018AD7E /* VoteDemoHUD.m */,
+			);
+			path = VoteDemoHUD;
+			sourceTree = "<group>";
+		};
+		E7FB917824D4F4A000DD30D5 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E72F13F6254180800001AFC7 /* YYModel */,
+				E72F13C1254180800001AFC7 /* YYText */,
+				E72F13C025411A4B0001AFC7 /* Textfield */,
+				E7C6902D2505E0D20018AD7E /* VoteDemoHUD */,
+				E7FCA3F424FF2B26001FB854 /* YYImage */,
+				E757CA8224F9FEEF001F8329 /* Cache Data */,
+				E75E4D0024F7A45500970733 /* Request */,
+				E7500A1624E115FA006C611A /* SlideSwitch */,
+				E76629B624E507E8006D5A76 /* DropList */,
+				E76629AC24E4C594006D5A76 /* AVCaptureSession */,
+				E7500A0F24E0E94D006C611A /* EasySignature */,
+				E7FB926124D5397200DD30D5 /* RSA */,
+				E7FB924924D52F0700DD30D5 /* User */,
+				E7FB917F24D4F59C00DD30D5 /* Extension */,
+				E7FCA3EE24FE1CB2001FB854 /* CustomMethodTool.h */,
+				E7FCA3EF24FE1CB2001FB854 /* CustomMethodTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		E7FB917F24D4F59C00DD30D5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E7FB918024D4F59C00DD30D5 /* NSString+Extension.h */,
+				E7FB918124D4F59C00DD30D5 /* UIView+Extension.h */,
+				E7FB918324D4F59C00DD30D5 /* NSString+Extension.m */,
+				E7FB918524D4F59C00DD30D5 /* UIView+Extension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E7FB924924D52F0700DD30D5 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				E7FCA3E624FDD932001FB854 /* UserInfo.h */,
+				E7FCA3E724FDD932001FB854 /* UserInfo.m */,
+				E7FCA3E824FDD932001FB854 /* UserManager.h */,
+				E7FCA3E924FDD932001FB854 /* UserManager.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		E7FB925324D5314800DD30D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E7FB925424D5318E00DD30D5 /* BallotListModel.h */,
+				E7FB925524D5318E00DD30D5 /* BallotListModel.m */,
+				E75E4D0524F890A100970733 /* ElectionListModel.h */,
+				E75E4D0624F890A100970733 /* ElectionListModel.m */,
+				E75E4D0824F890AE00970733 /* ElectionModel.h */,
+				E75E4D0924F890AE00970733 /* ElectionModel.m */,
+				E75E4D0B24F890CF00970733 /* SeatListModel.h */,
+				E75E4D0C24F890CF00970733 /* SeatListModel.m */,
+				E75E4D0E24F890DE00970733 /* SeatModel.h */,
+				E75E4D0F24F890DE00970733 /* SeatModel.m */,
+				E75E4D1124F890E900970733 /* CandidateModel.h */,
+				E75E4D1224F890E900970733 /* CandidateModel.m */,
+				E7500A0C24E0CEE6006C611A /* VoterBallotListModel.h */,
+				E7500A0D24E0CEE6006C611A /* VoterBallotListModel.m */,
+				E757CA9324FA0459001F8329 /* CountyInfo.h */,
+				E757CA9524FA045A001F8329 /* CountyInfo.m */,
+				E757CA9424FA0459001F8329 /* StateInfo.h */,
+				E757CA9624FA045A001F8329 /* StateInfo.m */,
+				E767A5F925035E77001BAC4F /* PrecinctInfo.h */,
+				E767A5FA25035E77001BAC4F /* PrecinctInfo.m */,
+				E767A6002503717A001BAC4F /* RegisterLinkModel.h */,
+				E767A6012503717A001BAC4F /* RegisterLinkModel.m */,
+				E7FCA40D24FF79C6001FB854 /* BallotVotedModel.h */,
+				E7FCA40E24FF79C6001FB854 /* BallotVotedModel.m */,
+				E767A5BD2501C3F2001BAC4F /* votingProgressModel.h */,
+				E767A5BE2501C3F2001BAC4F /* votingProgressModel.m */,
+				E767A5C325024B5F001BAC4F /* VoteDataModel.h */,
+				E767A5C425024B5F001BAC4F /* VoteDataModel.m */,
+				E78DE30825132A5D003E81AB /* BallotResultModel.h */,
+				E78DE30925132A5D003E81AB /* BallotResultModel.m */,
+				E72112C9252FF947005A74D5 /* InvitationModel.h */,
+				E72112CA252FF947005A74D5 /* InvitationModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E7FB926124D5397200DD30D5 /* RSA */ = {
+			isa = PBXGroup;
+			children = (
+				E7FB926624D5398A00DD30D5 /* OpenSSL */,
+				E7FB926224D5398A00DD30D5 /* RSATool.h */,
+				E7FB926424D5398A00DD30D5 /* RSATool.m */,
+				E70E24582511F91400536F3D /* RSAEncryptor.h */,
+				E70E24572511F91400536F3D /* RSAEncryptor.m */,
+			);
+			path = RSA;
+			sourceTree = "<group>";
+		};
+		E7FB926624D5398A00DD30D5 /* OpenSSL */ = {
+			isa = PBXGroup;
+			children = (
+				E7FB926724D5398A00DD30D5 /* include */,
+			);
+			path = OpenSSL;
+			sourceTree = "<group>";
+		};
+		E7FB926724D5398A00DD30D5 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E7FB926824D5398A00DD30D5 /* libcrypto.a */,
+				E7FB926924D5398A00DD30D5 /* opensslconf-template.h */,
+				E7FB926A24D5398A00DD30D5 /* LICENSE */,
+				E7FB926B24D5398A00DD30D5 /* libssl.a */,
+				E7FB926C24D5398A00DD30D5 /* openssl */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		E7FB926C24D5398A00DD30D5 /* openssl */ = {
+			isa = PBXGroup;
+			children = (
+				E7FB926D24D5398A00DD30D5 /* pem2.h */,
+				E7FB926E24D5398A00DD30D5 /* pem.h */,
+				E7FB926F24D5398A00DD30D5 /* ssl3.h */,
+				E7FB927024D5398A00DD30D5 /* ossl_typ.h */,
+				E7FB927124D5398A00DD30D5 /* dtls1.h */,
+				E7FB927224D5398A00DD30D5 /* err.h */,
+				E7FB927324D5398A00DD30D5 /* bn.h */,
+				E7FB927424D5398A00DD30D5 /* blowfish.h */,
+				E7FB927524D5398A00DD30D5 /* cms.h */,
+				E7FB927624D5398A00DD30D5 /* engine.h */,
+				E7FB927724D5398A00DD30D5 /* conf_api.h */,
+				E7FB927824D5398A00DD30D5 /* x509.h */,
+				E7FB927924D5398A00DD30D5 /* asn1_mac.h */,
+				E7FB927A24D5398A00DD30D5 /* opensslconf_ios_x86_64.h */,
+				E7FB927B24D5398A00DD30D5 /* ui.h */,
+				E7FB927C24D5398A00DD30D5 /* kssl.h */,
+				E7FB927D24D5398A00DD30D5 /* opensslconf_tvos_x86_64.h */,
+				E7FB927E24D5398A00DD30D5 /* opensslconf_ios_armv7s.h */,
+				E7FB927F24D5398A00DD30D5 /* sha.h */,
+				E7FB928024D5398A00DD30D5 /* symhacks.h */,
+				E7FB928124D5398A00DD30D5 /* asn1.h */,
+				E7FB928224D5398A00DD30D5 /* opensslconf.h */,
+				E7FB928324D5398A00DD30D5 /* opensslconf_ios_i386.h */,
+				E7FB928424D5398A00DD30D5 /* bio.h */,
+				E7FB928524D5398A00DD30D5 /* rc2.h */,
+				E7FB928624D5398A00DD30D5 /* dh.h */,
+				E7FB928724D5398A00DD30D5 /* ui_compat.h */,
+				E7FB928824D5398A00DD30D5 /* x509v3.h */,
+				E7FB928924D5398A00DD30D5 /* ssl23.h */,
+				E7FB928A24D5398A00DD30D5 /* conf.h */,
+				E7FB928B24D5398A00DD30D5 /* md5.h */,
+				E7FB928C24D5398A00DD30D5 /* x509_vfy.h */,
+				E7FB928D24D5398A00DD30D5 /* txt_db.h */,
+				E7FB928E24D5398A00DD30D5 /* safestack.h */,
+				E7FB928F24D5398A00DD30D5 /* ecdsa.h */,
+				E7FB929024D5398A00DD30D5 /* objects.h */,
+				E7FB929124D5398A00DD30D5 /* pkcs12.h */,
+				E7FB929224D5398A00DD30D5 /* crypto.h */,
+				E7FB929324D5398A00DD30D5 /* opensslv.h */,
+				E7FB929424D5398A00DD30D5 /* pkcs7.h */,
+				E7FB929524D5398A00DD30D5 /* obj_mac.h */,
+				E7FB929624D5398A00DD30D5 /* buffer.h */,
+				E7FB929724D5398A00DD30D5 /* ssl.h */,
+				E7FB929824D5398A00DD30D5 /* srp.h */,
+				E7FB929924D5398A00DD30D5 /* camellia.h */,
+				E7FB929A24D5398A00DD30D5 /* opensslconf_ios_arm64.h */,
+				E7FB929B24D5398A00DD30D5 /* evp.h */,
+				E7FB929C24D5398A00DD30D5 /* e_os2.h */,
+				E7FB929D24D5398A00DD30D5 /* md4.h */,
+				E7FB929E24D5398A00DD30D5 /* hmac.h */,
+				E7FB929F24D5398A00DD30D5 /* aes.h */,
+				E7FB92A024D5398A00DD30D5 /* comp.h */,
+				E7FB92A124D5398A00DD30D5 /* cast.h */,
+				E7FB92A224D5398A00DD30D5 /* rc4.h */,
+				E7FB92A324D5398A00DD30D5 /* stack.h */,
+				E7FB92A424D5398A00DD30D5 /* des.h */,
+				E7FB92A524D5398A00DD30D5 /* ocsp.h */,
+				E7FB92A624D5398A00DD30D5 /* ec.h */,
+				E7FB92A724D5398A00DD30D5 /* ecdh.h */,
+				E7FB92A824D5398A00DD30D5 /* rand.h */,
+				E7FB92A924D5398A00DD30D5 /* opensslconf_ios_armv7.h */,
+				E7FB92AA24D5398A00DD30D5 /* opensslconf_tvos_arm64.h */,
+				E7FB92AB24D5398A00DD30D5 /* ts.h */,
+				E7FB92AC24D5398A00DD30D5 /* pqueue.h */,
+				E7FB92AD24D5398A00DD30D5 /* dso.h */,
+				E7FB92AE24D5398A00DD30D5 /* seed.h */,
+				E7FB92AF24D5398A00DD30D5 /* modes.h */,
+				E7FB92B024D5398A00DD30D5 /* ssl2.h */,
+				E7FB92B124D5398A00DD30D5 /* rsa.h */,
+				E7FB92B224D5398A00DD30D5 /* krb5_asn.h */,
+				E7FB92B324D5398A00DD30D5 /* des_old.h */,
+				E7FB92B424D5398B00DD30D5 /* ripemd.h */,
+				E7FB92B524D5398B00DD30D5 /* whrlpool.h */,
+				E7FB92B624D5398B00DD30D5 /* tls1.h */,
+				E7FB92B724D5398B00DD30D5 /* mdc2.h */,
+				E7FB92B824D5398B00DD30D5 /* dsa.h */,
+				E7FB92B924D5398B00DD30D5 /* srtp.h */,
+				E7FB92BA24D5398B00DD30D5 /* asn1t.h */,
+				E7FB92BB24D5398B00DD30D5 /* cmac.h */,
+				E7FB92BC24D5398B00DD30D5 /* ebcdic.h */,
+				E7FB92BD24D5398B00DD30D5 /* idea.h */,
+				E7FB92BE24D5398B00DD30D5 /* lhash.h */,
+			);
+			path = openssl;
+			sourceTree = "<group>";
+		};
+		E7FCA3F424FF2B26001FB854 /* YYImage */ = {
+			isa = PBXGroup;
+			children = (
+				E7FCA3F524FF2B26001FB854 /* YYImage.h */,
+				E7FCA3F624FF2B26001FB854 /* YYImageCoder.h */,
+				E7FCA3F724FF2B26001FB854 /* YYFrameImage.h */,
+				E7FCA3F824FF2B26001FB854 /* YYSpriteSheetImage.m */,
+				E7FCA3F924FF2B26001FB854 /* YYAnimatedImageView.h */,
+				E7FCA3FA24FF2B26001FB854 /* YYImage.m */,
+				E7FCA3FB24FF2B26001FB854 /* YYImageCoder.m */,
+				E7FCA3FC24FF2B26001FB854 /* YYFrameImage.m */,
+				E7FCA3FD24FF2B26001FB854 /* YYAnimatedImageView.m */,
+				E7FCA3FE24FF2B26001FB854 /* YYSpriteSheetImage.h */,
+			);
+			path = YYImage;
+			sourceTree = "<group>";
+		};
+		E7FE903224D2C9C300C4D7E1 = {
+			isa = PBXGroup;
+			children = (
+				E7FE903D24D2C9C300C4D7E1 /* VoteDemo */,
+				E7FE903C24D2C9C300C4D7E1 /* Products */,
+				F7418995C5AF2803419FB693 /* Pods */,
+				230F06CAAD0A0F0915FB8AB7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E7FE903C24D2C9C300C4D7E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7FE903B24D2C9C300C4D7E1 /* VoteDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7FE903D24D2C9C300C4D7E1 /* VoteDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E7FE903E24D2C9C300C4D7E1 /* AppDelegate.h */,
+				E7FE903F24D2C9C300C4D7E1 /* AppDelegate.m */,
+				E767A5B025008CD4001BAC4F /* MainViewController.h */,
+				E767A5B125008CD4001BAC4F /* MainViewController.m */,
+				E70348B0253ABDCB00B6C877 /* Register */,
+				E70348B1253ABDD900B6C877 /* Ballot */,
+				E70348B2253ABDE200B6C877 /* Ballot Result */,
+				E75E4D1524F89B3400970733 /* View */,
+				E7FB925324D5314800DD30D5 /* Model */,
+				E7FB917824D4F4A000DD30D5 /* Tool */,
+				E7FE905724D2CCA900C4D7E1 /* VoteDemo.pch */,
+				E7FE904724D2C9C300C4D7E1 /* Main.storyboard */,
+				E7FE904A24D2C9C900C4D7E1 /* Assets.xcassets */,
+				E7FE904C24D2C9C900C4D7E1 /* LaunchScreen.storyboard */,
+				E7FE904F24D2C9C900C4D7E1 /* Info.plist */,
+				E7FE905024D2C9C900C4D7E1 /* main.m */,
+			);
+			path = VoteDemo;
+			sourceTree = "<group>";
+		};
+		F7418995C5AF2803419FB693 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				304D9E07F79D564422E8DFC6 /* Pods-VoteDemo.debug.xcconfig */,
+				AED82B3B687EF3884D430B26 /* Pods-VoteDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7FE903A24D2C9C300C4D7E1 /* VoteDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7FE905424D2C9C900C4D7E1 /* Build configuration list for PBXNativeTarget "VoteDemo" */;
+			buildPhases = (
+				170B0DABFE5D15D61EAAEC6E /* [CP] Check Pods Manifest.lock */,
+				E7FE903724D2C9C300C4D7E1 /* Sources */,
+				E7FE903824D2C9C300C4D7E1 /* Frameworks */,
+				E7FE903924D2C9C300C4D7E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoteDemo;
+			productName = VoteDemo;
+			productReference = E7FE903B24D2C9C300C4D7E1 /* VoteDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7FE903324D2C9C300C4D7E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = commernet;
+				TargetAttributes = {
+					E7FE903A24D2C9C300C4D7E1 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = E7FE903624D2C9C300C4D7E1 /* Build configuration list for PBXProject "VoteDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7FE903224D2C9C300C4D7E1;
+			productRefGroup = E7FE903C24D2C9C300C4D7E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7FE903A24D2C9C300C4D7E1 /* VoteDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7FE903924D2C9C300C4D7E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E767A5F825035CD6001BAC4F /* Precincts.csv in Resources */,
+				E757CA9224FA030C001F8329 /* StateInfo.txt in Resources */,
+				E757CA9124FA030C001F8329 /* CountyInfo.txt in Resources */,
+				E7FE904E24D2C9C900C4D7E1 /* LaunchScreen.storyboard in Resources */,
+				E767A604250381AB001BAC4F /* Links.csv in Resources */,
+				E7FB92C224D5398B00DD30D5 /* LICENSE in Resources */,
+				E7FE904B24D2C9C900C4D7E1 /* Assets.xcassets in Resources */,
+				E7FE904924D2C9C300C4D7E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		170B0DABFE5D15D61EAAEC6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoteDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7FE903724D2C9C300C4D7E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7FB918824D4F59C00DD30D5 /* UIView+Extension.m in Sources */,
+				E75E4D1324F890E900970733 /* CandidateModel.m in Sources */,
+				E7FB917E24D4F55300DD30D5 /* CustomTextfield.m in Sources */,
+				E72F1405254180810001AFC7 /* YYTextDebugOption.m in Sources */,
+				E767A5B225008CD4001BAC4F /* MainViewController.m in Sources */,
+				E75E4D0D24F890CF00970733 /* SeatListModel.m in Sources */,
+				E767A6022503717A001BAC4F /* RegisterLinkModel.m in Sources */,
+				E72F1402254180810001AFC7 /* YYTextLine.m in Sources */,
+				E72F1403254180810001AFC7 /* YYTextSelectionView.m in Sources */,
+				E75E4D1824F89B6400970733 /* VerifycationCell.m in Sources */,
+				E757CA9824FA045A001F8329 /* StateInfo.m in Sources */,
+				E75E4D1024F890DE00970733 /* SeatModel.m in Sources */,
+				E7500A0E24E0CEE6006C611A /* VoterBallotListModel.m in Sources */,
+				E72F1414254180810001AFC7 /* NSObject+YYModel.m in Sources */,
+				E7FB92C024D5398B00DD30D5 /* RSATool.m in Sources */,
+				E72F1406254180810001AFC7 /* YYLabel.m in Sources */,
+				E72F1412254180810001AFC7 /* YYTextAsyncLayer.m in Sources */,
+				E72F1410254180810001AFC7 /* YYTextTransaction.m in Sources */,
+				E767A5C22501E8F9001BAC4F /* ResultBallotViewController.m in Sources */,
+				E7500A2124E11615006C611A /* XLSlideSegmented.m in Sources */,
+				E72F13FE254180800001AFC7 /* YYTextContainerView.m in Sources */,
+				E72112D425300B38005A74D5 /* InvitationHomeViewController.m in Sources */,
+				E76629B524E4CC1C006D5A76 /* GOTVViewController.m in Sources */,
+				E75E4D0724F890A100970733 /* ElectionListModel.m in Sources */,
+				E75E4D6D24F9351C00970733 /* ConfirmVoteViewController.m in Sources */,
+				E75E4CFF24F7A3FC00970733 /* BallotsViewController.m in Sources */,
+				E72112CB252FF947005A74D5 /* InvitationModel.m in Sources */,
+				E7FCA3F024FE1CB2001FB854 /* CustomMethodTool.m in Sources */,
+				E75E4D6724F90B2F00970733 /* BallotTableViewCell.m in Sources */,
+				E7C690332505E1790018AD7E /* VoteDemoHUD.m in Sources */,
+				E72F1404254180810001AFC7 /* YYTextKeyboardManager.m in Sources */,
+				E7FCA3ED24FDD932001FB854 /* UserManager.m in Sources */,
+				E72F13FF254180800001AFC7 /* YYTextEffectWindow.m in Sources */,
+				E72F1400254180810001AFC7 /* YYTextInput.m in Sources */,
+				E72F13FD254180800001AFC7 /* YYTextMagnifier.m in Sources */,
+				E72F1413254180810001AFC7 /* YYTextWeakProxy.m in Sources */,
+				E7FE904024D2C9C300C4D7E1 /* AppDelegate.m in Sources */,
+				E72F1415254180810001AFC7 /* YYClassInfo.m in Sources */,
+				E75E4D6424F8FBC300970733 /* EasySignatureView.m in Sources */,
+				E7FCA3EC24FDD932001FB854 /* UserInfo.m in Sources */,
+				E7FB925624D5318E00DD30D5 /* BallotListModel.m in Sources */,
+				E72112D1252FF9EA005A74D5 /* InvitationListViewController.m in Sources */,
+				E75E4D6A24F9215900970733 /* BallotHeader.m in Sources */,
+				E7FE905124D2C9C900C4D7E1 /* main.m in Sources */,
+				E72F1409254180810001AFC7 /* YYTextAttribute.m in Sources */,
+				E75E4D0A24F890AE00970733 /* ElectionModel.m in Sources */,
+				E767A5BF2501C3F2001BAC4F /* votingProgressModel.m in Sources */,
+				E78DE30A25132A5D003E81AB /* BallotResultModel.m in Sources */,
+				E75E4D0324F7A46A00970733 /* HttpTool.m in Sources */,
+				E7FCA40924FF5FE1001FB854 /* VerifyConfirmViewController.m in Sources */,
+				E75E4D6324F8FBC300970733 /* PopSignatureView.m in Sources */,
+				E72F140A254180810001AFC7 /* YYTextArchiver.m in Sources */,
+				E72F1408254180810001AFC7 /* YYTextParser.m in Sources */,
+				E7500A2024E11615006C611A /* XLSlideSwitch.m in Sources */,
+				E72F13FC254180800001AFC7 /* YYTextView.m in Sources */,
+				E7500A2224E11615006C611A /* XLSegmentedSlideSwitch.m in Sources */,
+				E757CA9724FA045A001F8329 /* CountyInfo.m in Sources */,
+				E7500A2324E11615006C611A /* XLSlideSegmentedItem.m in Sources */,
+				E72F140C254180810001AFC7 /* YYTextUtilities.m in Sources */,
+				E72F1401254180810001AFC7 /* YYTextLayout.m in Sources */,
+				E76629AF24E4C5C2006D5A76 /* CameraViewController.m in Sources */,
+				E72F140E254180810001AFC7 /* NSAttributedString+YYText.m in Sources */,
+				E7FCA40C24FF6AAB001FB854 /* VotingProgressViewController.m in Sources */,
+				E7FCA40024FF2B26001FB854 /* YYImage.m in Sources */,
+				E767A5FB25035E77001BAC4F /* PrecinctInfo.m in Sources */,
+				E72F1407254180810001AFC7 /* YYTextRunDelegate.m in Sources */,
+				E7FCA3FF24FF2B26001FB854 /* YYSpriteSheetImage.m in Sources */,
+				E72F140F254180810001AFC7 /* UIPasteboard+YYText.m in Sources */,
+				E72F1411254180810001AFC7 /* UIView+YYText.m in Sources */,
+				E7FB918624D4F59C00DD30D5 /* NSString+Extension.m in Sources */,
+				E70E24592511F91400536F3D /* RSAEncryptor.m in Sources */,
+				E76629BF24E5086F006D5A76 /* DropListView.m in Sources */,
+				E7FCA40F24FF79C6001FB854 /* BallotVotedModel.m in Sources */,
+				E767A5C525024B5F001BAC4F /* VoteDataModel.m in Sources */,
+				E7FCA40624FF33EB001FB854 /* VerifyVoteViewController.m in Sources */,
+				E7FCA40324FF2B26001FB854 /* YYAnimatedImageView.m in Sources */,
+				E72F140B254180810001AFC7 /* YYTextRubyAnnotation.m in Sources */,
+				E75E4D1B24F8A1A900970733 /* BallotHomeViewController.m in Sources */,
+				E76629B224E4CBE0006D5A76 /* HomeViewController.m in Sources */,
+				E7FCA40224FF2B26001FB854 /* YYFrameImage.m in Sources */,
+				E72F140D254180810001AFC7 /* NSParagraphStyle+YYText.m in Sources */,
+				E7500A2624E116C2006C611A /* VoterRegisterViewController.m in Sources */,
+				E7FCA40124FF2B26001FB854 /* YYImageCoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7FE904724D2C9C300C4D7E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7FE904824D2C9C300C4D7E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7FE904C24D2C9C900C4D7E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7FE904D24D2C9C900C4D7E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7FE905224D2C9C900C4D7E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E7FE905324D2C9C900C4D7E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7FE905524D2C9C900C4D7E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 304D9E07F79D564422E8DFC6 /* Pods-VoteDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GXHB4XU5EA;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/commernet/Desktop/VoteDemo/VoteDemo/VoteDemo.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/YYModel\"",
+					"\"$(SRCROOT)/VoteDemo/Tool/RSA/OpenSSL/include\"",
+				);
+				INFOPLIST_FILE = VoteDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VoteDemo/RSA/OpenSSL/include",
+					"$(PROJECT_DIR)/VoteDemo/Tool/RSA/OpenSSL/include",
+					"$(PROJECT_DIR)/VoteDemo/Tool/RSAQ/OpenSSL/include",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pachain.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7FE905624D2C9C900C4D7E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AED82B3B687EF3884D430B26 /* Pods-VoteDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GXHB4XU5EA;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/commernet/Desktop/VoteDemo/VoteDemo/VoteDemo.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/YYModel\"",
+					"\"$(SRCROOT)/VoteDemo/Tool/RSA/OpenSSL/include\"",
+				);
+				INFOPLIST_FILE = VoteDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VoteDemo/RSA/OpenSSL/include",
+					"$(PROJECT_DIR)/VoteDemo/Tool/RSA/OpenSSL/include",
+					"$(PROJECT_DIR)/VoteDemo/Tool/RSAQ/OpenSSL/include",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pachain.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7FE903624D2C9C300C4D7E1 /* Build configuration list for PBXProject "VoteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7FE905224D2C9C900C4D7E1 /* Debug */,
+				E7FE905324D2C9C900C4D7E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7FE905424D2C9C900C4D7E1 /* Build configuration list for PBXNativeTarget "VoteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7FE905524D2C9C900C4D7E1 /* Debug */,
+				E7FE905624D2C9C900C4D7E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7FE903324D2C9C300C4D7E1 /* Project object */;
+}

@@ -1,0 +1,5 @@
+platform:ios,'9.0'
+target 'VoteDemo' do
+pod 'SDWebImage'
+pod 'MBProgressHUD'
+end

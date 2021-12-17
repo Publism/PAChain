@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import voteddecode.*?>
+
+<SplitPane dividerPositions="0.6202290076335878" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="526.0" prefWidth="683.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="voteddecode.MainFormController">
+  <items>
+    <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="381.0" prefWidth="681.0">
+         <children>
+            <Label layoutX="39.0" layoutY="13.0" text="Server:" />
+            <TextField fx:id="txtServer" layoutX="81.0" layoutY="9.0" prefHeight="25.0" prefWidth="329.0" text="http://192.168.32.8:9900/pachain" />
+            <Label layoutX="31.0" layoutY="81.0" text="Token / " />
+            <Label layoutX="21.0" layoutY="185.0" text="Public Key:" />
+            <Button fx:id="btnLoadTokenFromFile" layoutX="82.0" layoutY="77.0" mnemonicParsing="false" onAction="#loadTokenFromFile" text="Load From File" />
+            <Button fx:id="btnSaveTokenFromFile" layoutX="182.0" layoutY="77.0" mnemonicParsing="false" onAction="#saveTokenToFile" text="Save to File" />
+            <Button fx:id="btnCreateToken" layoutX="294.0" layoutY="77.0" mnemonicParsing="false" onAction="#createToken" prefHeight="26.0" prefWidth="368.0" text="No Key？ Please Create and Save it" textFill="#e505d9">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font></Button>
+            <Button fx:id="btnLoadPublicKeyFromFile" layoutX="82.0" layoutY="181.0" mnemonicParsing="false" onAction="#loadPublicKeyFromFile" text="Load From File" />
+            <Button fx:id="btnSavePublicKeyFromFile" layoutX="182.0" layoutY="181.0" mnemonicParsing="false" onAction="#savePublicKeyToFile" text="Save to File" />
+            <TextArea fx:id="txtToken" layoutX="81.0" layoutY="108.0" prefHeight="69.0" prefWidth="581.0" wrapText="true" />
+            <TextArea fx:id="txtPublicKey" layoutX="81.0" layoutY="213.0" prefHeight="76.0" prefWidth="581.0" wrapText="true" />
+            <NumberTextField fx:id="txtInterval" layoutX="82.0" layoutY="330.0" prefHeight="25.0" prefWidth="148.0" />
+            <Label layoutX="19.0" layoutY="334.0" text="Interval(m):" textFill="#f50505" />
+            <Button fx:id="btnStartDecode" layoutX="448.0" layoutY="330.0" mnemonicParsing="false" onAction="#startDecode" prefHeight="44.0" prefWidth="140.0" text="Start Decode" textFill="#940505">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font></Button>
+            <Button fx:id="btnStopDecode" layoutX="595.0" layoutY="330.0" mnemonicParsing="false" onAction="#stopDecode" prefHeight="44.0" prefWidth="67.0" text="Stop" textFill="#0015f8">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font></Button>
+            <Label layoutX="436.0" layoutY="13.0" text="Election Key:" />
+            <TextField fx:id="txtElectionKey" layoutX="513.0" layoutY="9.0" />
+            <Label layoutX="41.0" layoutY="300.0" text="Group:" textFill="#203eb5" />
+            <ComboBox fx:id="cmbDecodeGroup" layoutX="82.0" layoutY="296.0" prefHeight="25.0" prefWidth="109.0">
+                 <items>
+                     <FXCollections fx:factory="observableArrayList">
+                         <String fx:value="" />
+                         <String fx:value="GroupOne" />
+                         <String fx:value="GroupTwo" />
+                         <String fx:value="GroupTree" />
+                     </FXCollections>
+                 </items>
+                 <value><String fx:value="" /></value>
+             </ComboBox>
+            <TextField fx:id="txtKeyPath" editable="false" layoutX="258.0" layoutY="296.0" prefHeight="25.0" prefWidth="360.0" />
+            <Label layoutX="205.0" layoutY="300.0" text="Key Path:" textFill="#070bf5" />
+            <Button fx:id="btnSelectKeyPath" layoutX="626.0" layoutY="296.0" mnemonicParsing="false" onAction="#selectKeyPath" prefHeight="25.0" prefWidth="36.0" text=",,," />
+            <Label layoutX="24.0" layoutY="47.0" text="Key Type:" />
+            <ComboBox fx:id="cmbKeyType" layoutX="81.0" layoutY="43.0" prefWidth="150.0">
+                 <items>
+                     <FXCollections fx:factory="observableArrayList">
+                         <String fx:value="Wallet" />
+                         <String fx:value="Local" />
+                     </FXCollections>
+                 </items>
+                 <value><String fx:value="Wallet" /></value>
+             </ComboBox>
+            <Label layoutX="14.0" layoutY="100.0" text="Private Key:" />
+         </children>
+    </AnchorPane>
+    <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="135.0" prefWidth="681.0">
+         <children>
+            <TextArea fx:id="labStatus" editable="false" prefHeight="135.0" prefWidth="681.0" wrapText="false" />
+         </children>
+    </AnchorPane>
+  </items>
+</SplitPane>

@@ -1,0 +1,38 @@
+[
+  {
+    "candidateid": 1,
+    "name": "Donald Trump",
+    "party": "Republican",
+    "photo": "https://prototype.pavatar.us/pachain/images/candidates/1/photo.jpg"
+  },
+  {
+    "candidateid": 2,
+    "name": "Joe Biden",
+    "party": "Democratic",
+    "photo": "https://prototype.pavatar.us/pachain/images/candidates/2/photo.jpg"
+  },
+  {
+    "candidateid": 3,
+    "name": "James Averhart",
+    "party": "Democratic",
+    "photo": ""
+  },
+  {
+    "candidateid": 4,
+    "name": "Jerry Carl",
+    "party": "Republican",
+    "photo": ""
+  },
+  {
+    "candidateid": 5,
+    "name": "Phyllis Harvey-Hall",
+    "party": "Democratic",
+    "photo": ""
+  },
+  {
+    "candidateid": 6,
+    "name": "Nathan Mathis",
+    "party": "Republican",
+    "photo": ""
+  }
+]
